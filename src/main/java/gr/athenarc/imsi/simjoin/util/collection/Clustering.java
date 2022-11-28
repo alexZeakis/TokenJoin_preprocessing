@@ -1,4 +1,4 @@
-package eu.smartdatalake.simjoin.util.collection;
+package gr.athenarc.imsi.simjoin.util.collection;
 
 import gnu.trove.list.TIntList;
 

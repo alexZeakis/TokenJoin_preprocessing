@@ -1,12 +1,12 @@
-package eu.smartdatalake.runners;
+package gr.athenarc.imsi.runners;
 
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import eu.smartdatalake.simjoin.util.collection.FuzzyIntSetCollection;
-import eu.smartdatalake.simjoin.util.collection.FuzzySetCollectionReader;
-import eu.smartdatalake.simjoin.util.collection.FuzzySetCollectionReader2;
+import gr.athenarc.imsi.simjoin.util.collection.FuzzyIntSetCollection;
+import gr.athenarc.imsi.simjoin.util.collection.FuzzySetCollectionReader;
+import gr.athenarc.imsi.simjoin.util.collection.FuzzySetCollectionReader2;
 
 import java.io.FileOutputStream;
 import java.io.FileWriter;

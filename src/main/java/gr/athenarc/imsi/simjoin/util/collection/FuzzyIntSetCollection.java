@@ -1,14 +1,14 @@
-package eu.smartdatalake.simjoin.util.collection;
+package gr.athenarc.imsi.simjoin.util.collection;
 
 import java.util.Arrays;
 
-import eu.smartdatalake.simjoin.util.collection.FuzzyIntSet.PublicFuzzySet;
 import gnu.trove.iterator.TIntObjectIterator;
 import gnu.trove.list.TIntList;
 import gnu.trove.list.array.TIntArrayList;
 import gnu.trove.map.TIntObjectMap;
 import gnu.trove.map.hash.TIntObjectHashMap;
 import gnu.trove.set.TIntSet;
+import gr.athenarc.imsi.simjoin.util.collection.FuzzyIntSet.PublicFuzzySet;
 
 import java.io.Serializable;
 
