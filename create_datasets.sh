@@ -1,6 +1,14 @@
+# Check if the correct number of arguments is provided
+if [ "$#" -ne 2 ]; then
+  echo "Usage: $0 <in_dir> <out_dir>"
+  exit 1
+fi
+
+# Assign the command-line arguments to variables
+in_dir="$1"
+out_dir="$2"
+
 jar='target/tokenjoin_preprocessing-0.0.1-SNAPSHOT-jar-with-dependencies.jar'
-in_dir='/mnt/data/tokenjoin/original/'
-out_dir='/mnt/data/tokenjoin/serialized/'
 
 parts=(20 40 60 80 100)
 

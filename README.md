@@ -14,11 +14,9 @@ $ git clone https://github.com/alexZeakis/TokenJoin_preprocessing
 $ mvn install
 ```
 
-**Step 3**. Edit the **in_dir** and **out_dir** parameters in **create_datasets.sh**. 
-
-**Step 4** Make **create_datasets.sh** executable and run it:
+**Step 3** Make **create_datasets.sh** executable and run it:
 ```sh
-$ ./create_datasets.sh
+$ ./create_datasets.sh <in_dir> <out_dir>
 ```
 
 ## Datasets
